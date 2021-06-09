@@ -1,0 +1,2 @@
+rootProject.name = "Drug Dosage CF People"
+include ':app'

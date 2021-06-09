@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medbackground"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/hist"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="view history"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/curr_View"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Dosage"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Exit"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
